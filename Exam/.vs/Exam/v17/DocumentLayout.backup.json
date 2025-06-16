@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vikto\\OneDrive\\Desktop\\NewTZ\\Exam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{936F1C09-F34C-480F-AD12-17EE8E57EEFE}|Exam\\Exam.csproj|c:\\users\\vikto\\onedrive\\desktop\\newtz\\exam\\exam\\pages\\addoredit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{936F1C09-F34C-480F-AD12-17EE8E57EEFE}|Exam\\Exam.csproj|solutionrelative:exam\\pages\\addoredit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936F1C09-F34C-480F-AD12-17EE8E57EEFE}|Exam\\Exam.csproj|c:\\users\\vikto\\onedrive\\desktop\\newtz\\exam\\exam\\pages\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{936F1C09-F34C-480F-AD12-17EE8E57EEFE}|Exam\\Exam.csproj|solutionrelative:exam\\pages\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936F1C09-F34C-480F-AD12-17EE8E57EEFE}|Exam\\Exam.csproj|c:\\users\\vikto\\onedrive\\desktop\\newtz\\exam\\exam\\pages\\requests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{936F1C09-F34C-480F-AD12-17EE8E57EEFE}|Exam\\Exam.csproj|solutionrelative:exam\\pages\\requests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936F1C09-F34C-480F-AD12-17EE8E57EEFE}|Exam\\Exam.csproj|c:\\users\\vikto\\onedrive\\desktop\\newtz\\exam\\exam\\pages\\requests.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{936F1C09-F34C-480F-AD12-17EE8E57EEFE}|Exam\\Exam.csproj|solutionrelative:exam\\pages\\requests.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936F1C09-F34C-480F-AD12-17EE8E57EEFE}|Exam\\Exam.csproj|c:\\users\\vikto\\onedrive\\desktop\\newtz\\exam\\exam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{936F1C09-F34C-480F-AD12-17EE8E57EEFE}|Exam\\Exam.csproj|solutionrelative:exam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936F1C09-F34C-480F-AD12-17EE8E57EEFE}|Exam\\Exam.csproj|c:\\users\\vikto\\onedrive\\desktop\\newtz\\exam\\exam\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{936F1C09-F34C-480F-AD12-17EE8E57EEFE}|Exam\\Exam.csproj|solutionrelative:exam\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddOrEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\vikto\\OneDrive\\Desktop\\NewTZ\\Exam\\Exam\\Pages\\AddOrEdit.cshtml",
+              "RelativeDocumentMoniker": "Exam\\Pages\\AddOrEdit.cshtml",
+              "ToolTip": "C:\\Users\\vikto\\OneDrive\\Desktop\\NewTZ\\Exam\\Exam\\Pages\\AddOrEdit.cshtml",
+              "RelativeToolTip": "Exam\\Pages\\AddOrEdit.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T10:26:56.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddOrEdit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\vikto\\OneDrive\\Desktop\\NewTZ\\Exam\\Exam\\Pages\\AddOrEdit.cshtml.cs",
+              "RelativeDocumentMoniker": "Exam\\Pages\\AddOrEdit.cshtml.cs",
+              "ToolTip": "C:\\Users\\vikto\\OneDrive\\Desktop\\NewTZ\\Exam\\Exam\\Pages\\AddOrEdit.cshtml.cs",
+              "RelativeToolTip": "Exam\\Pages\\AddOrEdit.cshtml.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAQwDwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:26:58.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Requests.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\vikto\\OneDrive\\Desktop\\NewTZ\\Exam\\Exam\\Pages\\Requests.cshtml.cs",
+              "RelativeDocumentMoniker": "Exam\\Pages\\Requests.cshtml.cs",
+              "ToolTip": "C:\\Users\\vikto\\OneDrive\\Desktop\\NewTZ\\Exam\\Exam\\Pages\\Requests.cshtml.cs",
+              "RelativeToolTip": "Exam\\Pages\\Requests.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T06:17:48.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Requests.cshtml",
+              "DocumentMoniker": "C:\\Users\\vikto\\OneDrive\\Desktop\\NewTZ\\Exam\\Exam\\Pages\\Requests.cshtml",
+              "RelativeDocumentMoniker": "Exam\\Pages\\Requests.cshtml",
+              "ToolTip": "C:\\Users\\vikto\\OneDrive\\Desktop\\NewTZ\\Exam\\Exam\\Pages\\Requests.cshtml",
+              "RelativeToolTip": "Exam\\Pages\\Requests.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T06:17:44.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vikto\\OneDrive\\Desktop\\NewTZ\\Exam\\Exam\\Program.cs",
+              "RelativeDocumentMoniker": "Exam\\Program.cs",
+              "ToolTip": "C:\\Users\\vikto\\OneDrive\\Desktop\\NewTZ\\Exam\\Exam\\Program.cs",
+              "RelativeToolTip": "Exam\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T08:37:43.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vikto\\OneDrive\\Desktop\\NewTZ\\Exam\\Exam\\appsettings.json",
+              "RelativeDocumentMoniker": "Exam\\appsettings.json",
+              "ToolTip": "C:\\Users\\vikto\\OneDrive\\Desktop\\NewTZ\\Exam\\Exam\\appsettings.json",
+              "RelativeToolTip": "Exam\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-13T08:37:46.721Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

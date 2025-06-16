@@ -1,0 +1,35 @@
+﻿@page
+@model Exam.Pages.RequestsModel
+@{
+}
+<h1>Список заявок</h1>
+<a href="AddOrEdit">Добавить заявку</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Дата заявки</th>
+            <th>Партнёр</th>
+            <th>Продукты</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model.Orders)
+        {
+            <tr>
+                <td>@r.Id</td>
+                <td>@r.CreatedAt</td>
+                <td>@r.Partner?.PartnerName</td>
+                <td>
+                    @foreach (var rp in r.OrderProducts)
+                    {
+                        <div>@rp.Product?.ProductsName (@rp.Quality шт.)</div>
+                    }
+                </td>
+                <td>
+                    <a asp-page="/AddOrEdit" asp-route-id="@r.Id">Редактировать</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

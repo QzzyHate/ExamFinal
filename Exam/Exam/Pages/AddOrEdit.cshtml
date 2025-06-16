@@ -1,0 +1,92 @@
+﻿@page "{id?}"
+@model Exam.Pages.AddOrEditModel
+@{
+}
+<h2>@ViewData["Title"]</h2>
+
+<form method="post" novalidate>
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Order.Id" />
+    <input type="hidden" asp-for="Order.CreatedAt" />
+
+    <fieldset>
+        <legend>Информация о партнёре</legend>
+
+        <div class="form-group">
+            <label>Тип партнёра</label>
+            <select asp-for="Order.Partner.PartnerType" class="form-control" required>
+                <option value="">-- Выберите тип --</option>
+                <option value="ЗАО">ЗАО</option>
+                <option value="ПАО">ПАО</option>
+                <option value="ООО">ООО</option>
+            </select>
+            <div class="invalid-feedback">Пожалуйста, выберите тип партнёра.</div>
+        </div>
+
+        <div class="form-group">
+            <label>Наименование</label>
+            <input asp-for="Order.Partner.PartnerName" class="form-control" required />
+            <div class="invalid-feedback">Наименование обязательно для заполнения.</div>
+        </div>
+
+        <div class="form-group">
+            <label>ФИО директора</label>
+            <input asp-for="Order.Partner.Director" class="form-control" required />
+            <div class="invalid-feedback">ФИО директора обязательно для заполнения.</div>
+        </div>
+
+        <div class="form-group">
+            <label>Адрес</label>
+            <input asp-for="Order.Partner.Address" class="form-control" required />
+            <div class="invalid-feedback">Адрес обязателен для заполнения.</div>
+        </div>
+
+        <div class="form-group">
+            <label>Телефон</label>
+            <input asp-for="Order.Partner.Phone" class="form-control"
+                   pattern="^\+?[0-9\s\-\(\)]{7,15}$" required
+                   title="Введите корректный номер телефона. Пример: +7 (999) 123-45-67" />
+            <div class="invalid-feedback">Введите корректный номер телефона.</div>
+        </div>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input asp-for="Order.Partner.Email" class="form-control"
+                   pattern="^[a-zA-Z0-9_.+-]+[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" required
+                   title="Введите корректный email. Пример: example@domain.com" />
+            <div class="invalid-feedback">Введите корректный email адрес.</div>
+        </div>
+
+        <div class="form-group">
+            <label>Рейтинг</label>
+            <input asp-for="Order.Partner.Rating" type="number" class="form-control" min="0" required />
+            <div class="invalid-feedback">Рейтинг должен быть неотрицательным числом.</div>
+        </div>
+    </fieldset>
+
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+    <a asp-page="/Requests" class="btn btn-secondary">Отмена</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        (function () {
+            'use strict';
+
+            // Получаем все формы, к которым нужно применить кастомную валидацию Bootstrap
+            var forms = document.querySelectorAll('form');
+
+            Array.prototype.slice.call(forms).forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        })();
+    </script>
+}
